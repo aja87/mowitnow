@@ -4,6 +4,6 @@
 #### Or to package as an image  (docker should be installed) run : 
  ###### ``` mvnw.cmd springboot:build-image ```
 
-#### The job accpets two parameters : 
+#### The job accepts two parameters : 
  ###### inputFilePath : file path of the input file 
  ###### resultDestination : the destination folder of the result file
