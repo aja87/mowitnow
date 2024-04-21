@@ -57,9 +57,6 @@ public class MowingSession implements MovingContext {
 
     @Override
     public boolean canMoveToPosition(Position position) {
-        if(!position.coordinates().isWithin(lawn.boundaries()) && this.isPositionEmpty(position.coordinates())) {
-            return  false;
-        }
         return position.coordinates().isWithin(lawn.boundaries()) && this.isPositionEmpty(position.coordinates());
     }
 }
